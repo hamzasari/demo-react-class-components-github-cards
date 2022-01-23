@@ -11,9 +11,7 @@ const testData = [
 const CardList = () => {
   return (
     <div>
-      <Card {...testData[0]} />
-      <Card {...testData[1]} />
-      <Card {...testData[2]} />
+      {testData.map((profile, index) => <Card {...profile} key={index} />)}
     </div>
   )
 };
