@@ -11,9 +11,9 @@ const testData = [
 const CardList = () => {
   return (
     <div>
-      <Card profile={testData[0]} />
-      <Card profile={testData[1]} />
-      <Card profile={testData[2]} />
+      <Card {...testData[0]} />
+      <Card {...testData[1]} />
+      <Card {...testData[2]} />
     </div>
   )
 };
