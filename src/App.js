@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from './components/Card';
+import CardList from './components/CardList';
 
 import './App.css';
 
@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <div className='page'>
         <div className='header'>{this.props.title}</div>
-        <Card />
+        <CardList />
       </div>
     )
   }
