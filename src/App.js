@@ -18,6 +18,7 @@ class App extends React.Component {
   state = {
     profiles: testData,
   };
+  
   render() {
     return (
       <div className='page'>
