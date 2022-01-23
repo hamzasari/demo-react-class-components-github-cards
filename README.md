@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Training Project - React - Class and Functional Components
+
+This project was developed to train junior team mates.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
