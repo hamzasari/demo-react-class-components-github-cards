@@ -15,12 +15,9 @@ const testData = [
  * App component
  */
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      profiles: testData,
-    };
-  }
+  state = {
+    profiles: testData,
+  };
   render() {
     return (
       <div className='page'>
