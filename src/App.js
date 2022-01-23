@@ -22,6 +22,7 @@ class App extends React.Component {
     return (
       <div className='page'>
         <div className='header'>{this.props.title}</div>
+        <p><strong>Example Github usernames:</strong> hamzasari, gaearon, sophiebits, sebmarkbage, bvaughn</p>
         <Form onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
       </div>
