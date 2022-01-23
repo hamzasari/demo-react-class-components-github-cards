@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title={`The React Github Cards App with Class Components`} />
   </React.StrictMode>,
   document.getElementById('root')
 );
