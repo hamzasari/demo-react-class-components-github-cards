@@ -15,12 +15,18 @@ const testData = [
  * App component
  */
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      profiles: testData,
+    };
+  }
   render() {
     return (
       <div className='page'>
         <div className='header'>{this.props.title}</div>
         <Form />
-        <CardList profiles={testData} />
+        <CardList profiles={this.state.profiles} />
       </div>
     )
   }
